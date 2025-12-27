@@ -26,12 +26,7 @@ The mean images of real images belonging to each cluster:
 ## Installation
 
 ```bash
-pip install openmim
-mim install mmcv-full
-mim install mmdet
-mim install mmpose
-
-pip install anime-face-detector
+uv add https://github.com/xhiroga/anime-face-detector
 ```
 
 This package is tested only on Ubuntu.
@@ -93,11 +88,10 @@ print(preds[0])
 
 ### Run locally
 ```bash
-pip install gradio
-git clone https://github.com/hysts/anime-face-detector
+git clone https://github.com/xhiroga/anime-face-detector
 cd anime-face-detector
 
-python demo_gradio.py
+uv run --extra demo demo_gradio.py
 ```
 
 ## Citation
