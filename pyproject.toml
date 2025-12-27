@@ -1,6 +1,6 @@
 [project]
 name = "anime-face-detector"
-version = "0.1.0"
+version = "0.0.5"
 readme = "README.md"
 requires-python = ">=3.10"
 # For code compatibility, mmpose<=0.29.0 required.
